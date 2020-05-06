@@ -4,17 +4,17 @@ class Stationery:
         print('Запуск отрисовки')
 
 
-class Pen:
+class Pen(Stationery):
     title = 'ручка'
     def draw(self):
         print('прорисовка деталей')
 
-class Pensil:
+class Pensil(Stationery):
     title = 'карандаш'
     def draw(self):
         print('рисуем черновик')
 
-class Handle:
+class Handle(Stationery):
     title = 'маркер'
     def draw(self):
         print('выделение')
